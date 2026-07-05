@@ -17,11 +17,12 @@
         "announcement_BxgCk9": {
           "type": "_announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Pre Order Dial 7 soon",
             "font": "var(--font-subheading--family)",
             "font_size": "0.75rem",
             "letter_spacing": "normal",
-            "case": "none"
+            "case": "none",
+            "text_color": "#FFFFFF"
           },
           "blocks": {}
         }
@@ -33,7 +34,7 @@
       "settings": {
         "speed": 5,
         "section_width": "page-width",
-        "background_color": "{{ settings.color_palette.background }}",
+        "background_color": "#000000",
         "divider_width": 1,
         "divider_color": "{{ settings.color_palette.color2 }}",
         "padding-block-start": 15,
@@ -104,5 +105,3 @@
   "order": [
     "header_announcements_9jGBFp",
     "header_section"
-  ]
-}
